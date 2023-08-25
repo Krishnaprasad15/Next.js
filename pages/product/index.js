@@ -1,7 +1,10 @@
-
+import Link from "next/link"
 const index = () => {
   return (
     <>
+    <Link href='/'>
+    Home
+    </Link>
     <h1>
       Product 1
     </h1>
